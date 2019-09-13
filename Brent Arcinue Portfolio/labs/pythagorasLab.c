@@ -11,10 +11,10 @@
 #include"labs.h"
 int pythagorasLab(void)
 {
-    float a,b,c; //establishing data arguments
-    printf("Enter a value of A\n");
+    float a,b,c; 
+    printf("Enter a value of A\n"); //value of a
     scanf("%f", &a);
-    printf("Enter a value of B\n");
+    printf("Enter a value of B\n"); //value of b
     scanf("%f", &b);
     c = sqrt(a*a + b*b); //math.h function "sqrt()" used A*A + B*B = C
     printf("The length of the hypotenuse = %f\n", c);

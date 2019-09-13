@@ -15,5 +15,7 @@
 
 int timeLab(void);
 int pythagorasLab(void);
+int temperatureLab(void);
+int rectangleLab(void);
 
 #endif /* labs_h */

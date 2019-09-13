@@ -10,7 +10,7 @@
 #include "labs.h"
 int timeLab(void)
 {
-    int s,d,h,i,m,sl; //establishing data arguments
+    int s,d,h,i,m,sl; 
     printf("Enter the amount of seconds desired\n");
     scanf("%d", &s); //user input
     d=s/86400; //conversion from seconds to days

@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include <math.h>
+#include "labs.h"
 int temperatureLab(void)
 {
     
